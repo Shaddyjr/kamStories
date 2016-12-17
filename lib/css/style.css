@@ -1,0 +1,47 @@
+/*font-family: 'Kaushan Script', cursive;
+font-family: 'Roboto Slab', serif;
+font-family: 'Shrikhand', cursive;*/
+body{
+	text-align: center;
+}
+
+#mainTitle{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 25px;
+}
+
+#mainTitle h1{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#mainTitle img{
+	vertical-align: middle;
+	display: inline-block;
+	width:50px;
+	margin-left: 20px;
+}
+
+p{
+	font-family: 'Roboto Slab', serif;
+}
+
+h2{
+font-family: 'Shrikhand', cursive;	
+}
+
+.mainHead{
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	width:75%;
+}
+
+.mainNav{
+	width: 100%;
+	position: fixed;
+	top:0;
+}
+
+/*Old browser fix*/
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary{display: block;}
