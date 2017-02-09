@@ -10,8 +10,7 @@
 	<div>
 	<div class="mainNav">
 		<div id="mainTitle">
-				<a href="index.html"><h1>Children's Stories from all over the World
-				</h1></a>
+				<a href="index.html"><h1>Children's Stories from all over the World</h1></a>
 				<img src="http://pngimages.net/sites/default/files/world-png-image-18072.png" alt="">
 		</div>
 			 <nav class="navbar navbar-default">
@@ -28,10 +27,7 @@
 	            <li class="dropdown">
 	              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Search<span class="caret"></span></a>
 	              <ul class="dropdown-menu">
-	                <li><a href="#">Search Stories</a></li>
-	                <li><a href="#">Search Book Reviews</a></li>
-					<!-- Working with Modals -->
-					<!-- http://www.w3schools.com/bootstrap/bootstrap_modal.asp -->
+					<a data-toggle="modal" href="#myModal">Search Stories</a>
 	              </ul>
 	            </li>
 	          </ul>
@@ -51,7 +47,41 @@
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/XbgjH0ApKoc" frameborder="0" allowfullscreen></iframe> -->
 		</div>
 	</div>
-	
+	<!-- MODAL NEEDS TO EXISTS ON ITS OWN, OUT OF BLOCK OF CONTENT -->
+<!-- Modal -->
+					<div id="myModal" class="modal fade" style="display: none">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="exampleModalLabel">Search Stories</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+								
+							<!-- start of form -->
+							<form>
+					            <label for="searchWord" class="form-control-label">Type name, theme, or other keyword to search our Story Database</label>
+					            <input type="text" class="form-control" id="searchWord">
+					        </form>
+					        <!-- end of form -->
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					        <button id="submitButt" type="button" class="btn btn-primary">Submit</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+	                <!-- <li><a href="#">Search Stories</a></li> -->
+	                <!-- <li><a href="#">Search Book Reviews</a></li> -->
+					<!-- Working with Modals -->
+					<!-- http://www.w3schools.com/bootstrap/bootstrap_modal.asp -->
+
+					<!-- End of modal -->
+
 	<!-- jQuery -->
 	<script src="lib/js/jquery-3.1.0.js"></script>
 
