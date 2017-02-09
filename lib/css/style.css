@@ -42,6 +42,10 @@ p{
 	font-size: 1.25em;
 }
 
+.themeSubmit{
+	cursor: pointer;
+}
+
 .info{
 	font-size: 1em;
 	font-weight: bold;
@@ -52,6 +56,10 @@ p{
 	font-family: 'Work Sans', sans-serif;
 }
 
+.highlight{
+	text-decoration: underline;
+	color: red;
+}
 
 .mainHead{
 	margin-left: auto;

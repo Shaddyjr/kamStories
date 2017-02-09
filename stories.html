@@ -10,79 +10,78 @@
 <body>
 	
 	<div>
-	<div class="mainNav">
-		<div id="mainTitle">
+		<div class="mainNav">
+			<div id="mainTitle">
 				<a href="index.html"><h1>Children's Stories from all over the World</h1></a>
 				<img src="http://pngimages.net/sites/default/files/world-png-image-18072.png" alt="">
-		</div>
-			 <nav class="navbar navbar-default">
-	      <div class="container">
-	        <div class="navbar-header">
-	          
-	        </div>
-	        <div id="navbar" class="navbar-collapse collapse">
-	          <ul class="nav navbar-nav">
-	            <li class="active"><a href="stories.html">Stories</a></li>
-	            <li><a href="books.html">Book Reviews</a></li>
-	            <li><a href="about.html">About</a></li>
-	            <li><a href="contact.html">Contact</a></li>
-	            <li class="dropdown">
-	              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Search<span class="caret"></span></a>
-	              <ul class="dropdown-menu">
-					<a data-toggle="modal" href="#myModal">Search Stories</a>
-	              </ul>
-	            </li>
-	          </ul>
-	        </div><!--/.nav-collapse -->
-	      </div>
-	    </nav>
-	</div> <!-- end of nav div -->
+			</div>
+			<nav class="navbar navbar-default">
+				<div class="container">
+					<div class="navbar-header">
+						
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="stories.html">Stories</a></li>
+							<li><a href="books.html">Book Reviews</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Search<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<!-- <a data-toggle="modal" href="#myModal">Search Stories</a> -->
+								</ul>
+							</li>
+							<!-- Search area -->
+							<li>
+								<div class="form-group">
+									<input type="text" class="form-control" id="searchBar" placeholder="Search">
+								</div>
+							</li>
+						</ul>
+					</div><!--/.nav-collapse -->
+				</div>
+			</nav>
+		</div> <!-- end of nav div -->
 
 		<div class="mainHead">
-			<!-- <h2>Story 1</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus nam eum, eos inventore at distinctio explicabo! Dolor tenetur, qui vitae sed a earum soluta dicta! Vitae nostrum, id facere voluptatum.</p>
-			<h2>Story 2</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate odit maxime eligendi nihil esse placeat nostrum, ipsum cumque adipisci in corporis enim aspernatur ducimus dolor nesciunt mollitia quas id, neque voluptatum consequuntur, facere molestias veniam? Fuga, excepturi eos, eum distinctio in error quam sit soluta corrupti veniam consequatur ad doloremque expedita beatae voluptate molestiae laboriosam harum quae deleniti, aspernatur eveniet a. Accusantium reprehenderit quibusdam, consequuntur eligendi nobis. Earum adipisci, aut laudantium voluptas dolore ducimus quisquam doloremque molestiae reiciendis nesciunt odio suscipit voluptatum similique, cumque esse, repellat. Dolor nobis, est in illo aspernatur, fugiat beatae itaque, magni laboriosam quam perferendis provident nihil voluptates magnam. Adipisci, repellendus consequuntur nostrum sit voluptatibus praesentium provident impedit similique. Facilis magni accusamus error vel nemo ipsam quisquam quae obcaecati libero consequatur, facere dignissimos nam. Et perferendis, eos dicta tempore eum. Temporibus delectus, quasi sed cupiditate eveniet voluptates odio saepe, laudantium unde expedita exercitationem suscipit esse amet iusto sapiente ducimus! Similique quasi sed, totam ex blanditiis fugiat numquam quisquam nihil quis! Eaque molestias magnam accusantium alias voluptas nulla aliquam dicta placeat odio laboriosam consequatur ea sit expedita beatae accusamus aspernatur pariatur a itaque facilis totam, non sunt nobis. Quos nihil quas ad, expedita accusantium veniam quidem! Inventore.</p>
-			<h2>Story 3</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In id perspiciatis dolores, facere ea eum, rerum quo adipisci. Expedita tempora necessitatibus reiciendis itaque amet ipsam magnam, at voluptas aut, voluptatem libero modi voluptates minima explicabo dignissimos sunt numquam aperiam esse maiores. Nisi qui labore a iusto error, blanditiis at est?</p>
-			<h2>Story 4</h2>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/XbgjH0ApKoc" frameborder="0" allowfullscreen></iframe> -->
+			
 		</div>
 	</div>
 	<!-- MODAL NEEDS TO EXISTS ON ITS OWN, OUT OF BLOCK OF CONTENT -->
-<!-- Modal -->
-					<div id="myModal" class="modal fade" style="display: none">
-					  <div class="modal-dialog" role="document">
-					    <div class="modal-content">
-					      <div class="modal-header">
-					        <h5 class="modal-title" id="exampleModalLabel">Search Stories</h5>
-					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					          <span aria-hidden="true">&times;</span>
-					        </button>
-					      </div>
-					      <div class="modal-body">
-								
-							<!-- start of form -->
-							<form>
-					            <label for="searchWord" class="form-control-label">Type name, theme, or other keyword to search our Story Database</label>
-					            <input type="text" class="form-control" id="searchWord">
-					        </form>
-					        <!-- end of form -->
-					      </div>
-					      <div class="modal-footer">
-					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					        <button id="submitButt" type="button" class="btn btn-primary">Submit</button>
-					      </div>
-					    </div>
-					  </div>
-					</div>
+	<!-- Modal -->
+	<div id="myModal" class="modal fade" style="display: none">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Search Stories</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					
+					<!-- start of form -->
+					<form>
+						<label for="searchWord" class="form-control-label">Type name, theme, or other keyword to search our Story Database</label>
+						<input type="text" class="form-control" id="searchWord">
+					</form>
+					<!-- end of form -->
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button id="submitButt" type="button" class="btn btn-primary">Submit</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
-	                <!-- <li><a href="#">Search Stories</a></li> -->
-	                <!-- <li><a href="#">Search Book Reviews</a></li> -->
-					<!-- Working with Modals -->
-					<!-- http://www.w3schools.com/bootstrap/bootstrap_modal.asp -->
+	<!-- <li><a href="#">Search Stories</a></li> -->
+	<!-- <li><a href="#">Search Book Reviews</a></li> -->
+	<!-- Working with Modals -->
+	<!-- http://www.w3schools.com/bootstrap/bootstrap_modal.asp -->
 
-					<!-- End of modal -->
+	<!-- End of modal -->
 
 	<!-- jQuery -->
 	<script src="lib/js/jquery-3.1.0.js"></script>
