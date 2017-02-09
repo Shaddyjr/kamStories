@@ -1,16 +1,22 @@
 /*font-family: 'Kaushan Script', cursive;
 font-family: 'Roboto Slab', serif;
 font-family: 'Shrikhand', cursive;*/
+/*font-family: 'Kavoon', cursive;
+font-family: 'Alike Angular', serif;
+font-family: 'Work Sans', sans-serif;*/
+
 body{
 	text-align: center;
 }
 
 #mainTitle{
+	background-color: white;
 	font-family: 'Kaushan Script', cursive;
 	font-size: 25px;
 }
 
 #mainTitle h1{
+	font-family: 'Kaushan Script', cursive;
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -26,12 +32,28 @@ p{
 	font-family: 'Roboto Slab', serif;
 }
 
-h2{
-font-family: 'Shrikhand', cursive;	
+.name{ /*Story titles*/
+	font-family: 'Shrikhand', cursive;
+	font-size: 3em;
 }
 
+.themes{
+	font-family: 'Kavoon', cursive;
+	font-size: 1.25em;
+}
+
+.info{
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.content{
+	font-size: 1em;
+	font-family: 'Work Sans', sans-serif;
+}
+
+
 .mainHead{
-	margin-top: 200px;
 	margin-left: auto;
 	margin-right: auto;
 	width:75%;
@@ -42,6 +64,12 @@ font-family: 'Shrikhand', cursive;
 	position: fixed;
 	top:0;
 }
-
+hr {
+    border: none;
+    height: 2px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
 /*Old browser fix*/
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary{display: block;}
