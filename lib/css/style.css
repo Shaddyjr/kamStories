@@ -28,6 +28,28 @@ body{
 	margin-left: 20px;
 }
 
+table{
+    table-layout: fixed;
+}
+
+td{
+    word-wrap:break-word
+}
+
+img.assetIMG{
+	visibility: hidden;
+	width:100%;
+}
+
+div.divImg{
+	box-shadow: 0 0 10px 10px rgba(225,225,225,1) inset;
+	border-radius: 30px;
+	margin-bottom: 1em;
+    background-size: cover;
+	display: inline-block;
+	width:30%;
+}
+
 p{
 	font-family: 'Roboto Slab', serif;
 }
@@ -54,6 +76,7 @@ p{
 .content{
 	font-size: 1em;
 	font-family: 'Work Sans', sans-serif;
+	/*float: right;*/
 }
 
 .highlight{
